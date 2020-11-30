@@ -1,0 +1,26 @@
+{
+  "name": "jsappfiles",
+  "version": "1.0.0",
+  "description": "meme maker (ha)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+  },
+  "keywords": [
+    "memes"
+  ],
+  "author": "Danford Compton Stephanie Beagle",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "fund": "^1.0.0",
+    "heroku": "^7.47.3",
+    "node": "^15.3.0",
+    "path": "^0.12.7",
+    "pool": "^0.4.1",
+    "pug": "^3.0.0",
+    "request": "^2.88.2"
+  }
+}
