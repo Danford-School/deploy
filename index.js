@@ -27,7 +27,7 @@ app.get('/', (req, res) => {
    writeHomepage(length, response.data.memes);
 
   // This is for using pug 
-   res.render("index"); 
+   res.render("index.pug"); 
 
   // This stuff is for serving HTML with res.sendFile but so far it doesn't seem to work. 
   // Theoretically it should display the HTML at localhost:3000  
