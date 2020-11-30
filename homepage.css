@@ -1,23 +1,55 @@
 .title {
-    color: midnightblue;
+  color: midnightblue;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 5em;
+  letter-spacing: -2px;
+  border-bottom: 2px solid black;
+  text-transform: uppercase;
+}
+
+body {
+  background-color: #323236; 
+}
+
+.text {
+  color: #161633;  
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 2em; 
+  text-transform: uppercase; 
+}
+
+.header{
+  height: auto;
+  width: auto; 
+  margin: 0 px;   
+  padding: 10px; 
+  background-color: #ebde57;
 }
 .grid {
   display: flex; 
   flex-direction: row;
   margin: 20 px; 
-  width: 100%; 
+  width: 100%;  
 }
 
 .meme_box {
-  border: solid green; 
-  width: 20%; 
+  width: auto; 
   height: 200 px; 
+  align-content: center; 
   margin: auto; 
+  padding: 5px; 
 }
  .meme_box img {
+  display: flex;
+  align-self: center;
+  border: solid #edbe57; 
+  border-radius: 8px;
   width: 100%; 
-  float: center; 
-  margin: auto; 
+  margin-left: auto; 
+  margin-right: auto;
   height: auto; 
-  margin: auto; 
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px midnightblue;
 }
