@@ -47,7 +47,7 @@ app.get('/', (req, res) => {
   })
 })
 //app.use("/", router); // more Pug stuff 
-app.listen(port, () => console.log('App listening on port 3000'));
+app.listen(process.env.PORT, () => console.log('App listening on whatever Heroku wants'));
 
 // takes the array of data from the JSON body & the length of the array as arguments
 // and writes homepage.html with the corresponding data  
