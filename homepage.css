@@ -1,0 +1,23 @@
+.title {
+    color: midnightblue;
+}
+.grid {
+  display: flex; 
+  flex-direction: row;
+  margin: 20 px; 
+  width: 100%; 
+}
+
+.meme_box {
+  border: solid green; 
+  width: 20%; 
+  height: 200 px; 
+  margin: auto; 
+}
+ .meme_box img {
+  width: 100%; 
+  float: center; 
+  margin: auto; 
+  height: auto; 
+  margin: auto; 
+}
