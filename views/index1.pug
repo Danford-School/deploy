@@ -6,4 +6,16 @@ html
 		script.
 			src="index.js"
 	body
-		h1.title Meme Maker
+		div.header
+			h1.title Edit
+		h2.text Customize captions on your selected image
+		div.container 
+			img(src="https://i.imgflip.com/46e43q.png")
+		div.input
+			span.label Top Text 
+			input(type="text", name="toptext")
+		div.input 
+			span.label Bottom Text 
+			input(type="text", name="bottomtext") 
+		div.input
+			button(class=buttonClass type="submit") Next
