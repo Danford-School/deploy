@@ -60,9 +60,10 @@ function writeHomepage(length, data) {
     }
     //html += '<td class = "meme_box"><img src="' + data[i].url + '"></td>';
    // pugtxt += "\n\t\t\t\t\ttd.meme_box a(href =\"" + gotoURL + data[i].template_id + "\")";
-   // pugtxt += "\n\t\t\t\t\t\ta(href ='" + gotoURL + data[i].template_id + "')"; 
+     
     pugtxt += "\n\t\t\t\t\ttd.meme_box"
-    pugtxt += "\n\t\t\t\t\t\timg(src=\"" + data[i].url + "\")";
+    pugtxt += "\n\t\t\t\t\t\ta(href ='" + gotoURL + data[i].template_id + "')";
+    pugtxt += "\n\t\t\t\t\t\t\timg(src=\"" + data[i].url + "\")";
   }
   //html += '</tr>';
   //html += '</table>'; 
