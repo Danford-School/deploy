@@ -14,10 +14,10 @@ const url = "https://api.imgflip.com/get_memes";
 // Code for using Pug. It will set off some errors it's just copy/pasted. 
 
 app.set("view engine", "pug");
-app.use(express.static(path.join(__dirname, 'public')))
-/*
+
+
 app.set("views", path.join(__dirname, "views")); 
-*/
+
 
 app.get('/', (req, res) => {
   requestHandler.make_API_call(url) //see requestHandler.js 
