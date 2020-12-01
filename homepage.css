@@ -1,0 +1,118 @@
+.title {
+  color: midnightblue;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 5em;
+  letter-spacing: -2px;
+  border-bottom: 2px solid black;
+  text-transform: uppercase;
+}
+
+body {
+  background-color: #fff;
+  background-image:
+  linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+  linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 1.2em;
+}
+
+.text {
+  color: #161633;  
+  text-align: center; 
+  font-family: "Trebuchet MS", sans-serif;
+  font-variant: small-caps; 
+  font-style: italic; 
+  font-size: 2em; 
+  text-transform: uppercase; 
+}
+
+.header{
+  height: 14em; 
+  width: 85%; 
+  margin: auto;   
+  padding: 15px; 
+  background-color: rgb(235, 222, 87, 0.5);
+}
+.grid {
+  display: flex; 
+  flex-direction: row;
+  margin: 20 px; 
+  margin-top: 2em; 
+  width: 100%;  
+}
+
+.meme_box {
+  width: auto; 
+  height: 200 px; 
+  align-content: center; 
+  margin: auto; 
+  padding: 5px; 
+}
+ .meme_box img {
+  display: flex;
+  align-self: center;
+  border: solid midnightblue; 
+  border-radius: 8px;
+  width: 100%; 
+  margin-left: auto; 
+  margin-right: auto;
+  height: auto; 
+}
+
+img:hover {
+  box-shadow: 0 0 2px 2px midnightblue;
+}
+
+.container {
+  width: 40%; 
+  margin: auto; 
+  border: solid midnightblue; 
+  padding: 10px; 
+}
+
+.container img {
+  margin: auto; 
+  width: 100%; 
+  align-self: center; 
+}
+.input {
+  width: 50%; 
+  margin: auto; 
+  margin-top: 2em; 
+  font-family: "Trebuchet MS", sans-serif;
+  align-self: center; 
+}
+input {
+  width: 100%; 
+  height: 3em;  
+  margin: auto; 
+  background-color: rgb(235, 222, 87, 0.5);
+  font-size: 18px; 
+  font-family: "Trebuchet MS", sans-serif;
+  padding: 3px; 
+}
+span {
+  color: midnightblue; 
+  font-weight: bold; 
+  text-transform: uppercase; 
+  font-size: 24px; 
+}
+button{
+  background-color: rgb(25, 25, 112, 0.75);
+  color: white; 
+  font-size: 20px; 
+  font-weight: bold; 
+  text-transform: uppercase; 
+  width: 100%; 
+  height: 3em; 
+  margin: auto;
+  margin-top: 2em; 
+  align-self: center;
+}
+
+button:hover {
+  box-shadow: 0 0 2.5px 1px gray;
+}
+
+input:hover {
+  box-shadow: 0 0 2.5px 1px gray;
+}
