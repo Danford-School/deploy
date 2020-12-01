@@ -10,7 +10,7 @@ const router = express.Router();
 const port = 3000; 
 const app = express();
 const url = "https://api.imgflip.com/get_memes";
-const { Pool } = require('pg'); 
+//const { Pool } = require('pg'); 
 
 // Code for using Pug. It will set off some errors it's just copy/pasted. 
 
